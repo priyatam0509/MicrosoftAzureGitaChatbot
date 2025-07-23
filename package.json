@@ -1,0 +1,21 @@
+{
+  "name": "quiz-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "botbuilder": "^4.17.0-blobs1",
+    "dotenv": "^17.2.0",
+    "mssql": "^11.0.1",
+    "nodemailer": "^7.0.5",
+    "nodemon": "^3.1.10",
+    "restify": "^11.1.0"
+  }
+}
