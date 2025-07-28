@@ -12,7 +12,7 @@ class CertificateService {
             }
         });
         
-        this.adminEmail = process.env.ADMIN_EMAIL || 'pushkarsinghwk@gmail.com';
+        this.adminEmail = process.env.ADMIN_EMAIL || 'Pruthwiraj.Lenka@inventronicsglobal.com';
     }
 
     async generateCertificate(userData) {
